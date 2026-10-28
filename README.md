@@ -49,10 +49,10 @@ Requires Python 3.10+.
    cd deep_agent_financial_research
    ```
 
-2. Install the package. Use `[ui]` for the Streamlit demo, or `[dev]` for the UI plus tests and evals:
+2. Install the package with all extras (UI, evals, tests) using [uv](https://docs.astral.sh/uv/):
    ```bash
-   pip install -e ".[dev]"
-   # or: uv venv && uv pip install -e ".[dev]"
+   uv sync --all-extras
+   source .venv/bin/activate
    ```
 
 3. Configure environment variables:
