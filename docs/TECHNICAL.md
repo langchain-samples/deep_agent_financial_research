@@ -1,6 +1,6 @@
 # Technical Guide
 
-Setup, configuration, and internals. For the overview, architecture, and demo talk track, see the [README](../README.md).
+Setup, configuration, and internals. For the overview and architecture, see the [README](../README.md).
 
 A comprehensive financial services deep research agent built with LangChain DeepAgents and LangGraph. This agent performs automated financial research on publicly-traded companies, gathering data from multiple sources, performing analysis, and generating detailed research reports in multiple formats.
 
