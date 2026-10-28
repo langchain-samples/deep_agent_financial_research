@@ -1,0 +1,79 @@
+# Agent Configuration File
+
+agent:
+  name: "FinancialDeepResearchAgent"
+  description: "A comprehensive financial research agent using LangChain DeepAgents"
+
+model:
+  provider: "openai"  # openai, anthropic, ollama
+  model: "gpt-4o"
+  temperature: 0.7
+
+budget:
+  max_tokens: 100000
+  max_cost: 1.00
+  max_time_minutes: 10
+
+execution:
+  max_iterations: 25
+  max_replans: 2
+  max_task_retries: 5
+  enable_parallel: true
+  enable_filesystem: true
+
+data_sources:
+  yahoo_finance:
+    enabled: true
+  sec_edgar:
+    enabled: true
+    user_agent: null  # Set SEC_USER_AGENT; no API key needed
+  news_rss:
+    enabled: true  # Yahoo Finance + Google News RSS; NEWS_API_KEY optional
+
+output:
+  directory: "output"
+  default_format: "excel"  # excel, pdf, markdown, json
+  formats:
+    - excel
+    - pdf
+    - markdown
+    - json
+
+subagents:
+  data_collector:
+    name: "DataCollector"
+    description: "Specialized agent for collecting financial data from multiple sources"
+    enabled: true
+  
+  analyst:
+    name: "FinancialAnalyst"
+    description: "Specialized agent for performing financial analysis and calculations"
+    enabled: true
+  
+  report_generator:
+    name: "ReportGenerator"
+    description: "Specialized agent for generating comprehensive research reports"
+    enabled: true
+
+tools:
+  stock_data:
+    enabled: true
+    sources:
+      - yahoo_finance
+  
+  sec_filings:
+    enabled: true
+  
+  news:
+    enabled: true
+  
+  analysis:
+    enabled: true
+  
+  reporting:
+    enabled: true
+    formats:
+      - excel
+      - pdf
+      - markdown
+      - json
