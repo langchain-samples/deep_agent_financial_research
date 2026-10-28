@@ -1,0 +1,21 @@
+docs/TECHNICAL.md
+  s_34a632d45b37bc::t_c30396b155b082 3
+README.md
+  s_34a632d45b37bc::t_c30396b155b082 42-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1ffae02b54680bf2b29f7cb8d5aa24498ced3093",
+  "prompts": {},
+  "sessions": {
+    "s_34a632d45b37bc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d1db7163-8502-4d5d-b34c-a1ca6e834a0a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Eric Johanson <eric.johanson@langchain.dev>"
+    }
+  }
+}
