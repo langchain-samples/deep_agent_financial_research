@@ -1,0 +1,147 @@
+.env.example
+  s_2630680b83c41c::t_f84da3f627ce7d 1-41
+.gitignore
+  s_34a632d45b37bc::t_de9853b4830f80 1-66
+.streamlit/config.toml
+  s_2630680b83c41c::t_2d777f0834c56d 1-9
+config/agent_config.yaml
+  s_2630680b83c41c::t_72580d62830ddc 1-79
+config/snowflake_mcp_readonly.yaml
+  s_2630680b83c41c::t_ce41f22f6edb44 1-35
+docs/TECHNICAL.md
+  s_2630680b83c41c::t_372af5dea7101b 1-430
+evals/__init__.py
+  s_2630680b83c41c::t_25e440d62486a5 1
+evals/dataset.py
+  s_2630680b83c41c::t_b659957ea96efe 1-113
+evals/evaluators.py
+  s_2630680b83c41c::t_2e4365be8c5a70 1-161
+evals/run_evals.py
+  s_2630680b83c41c::t_a4fdf83fb44ab9 1-80
+langgraph.json
+  s_2630680b83c41c::t_c455d3acc348c9 1-8
+legacy/README.md
+  s_2630680b83c41c::t_567676708872c4 1-8
+legacy/graph/__init__.py
+  s_2630680b83c41c::t_349bf1b75cd5d9 1
+legacy/graph/state.py
+  s_2630680b83c41c::t_5abab90937e8c1 1-43
+legacy/graph/workflow.py
+  s_2630680b83c41c::t_852aab7fdd1cc8 1-180
+legacy/orchestrator.py
+  s_2630680b83c41c::t_ead0025bb49c29 1-216
+legacy/verification.py
+  s_2630680b83c41c::t_28bb5ec932c32e 1-252
+pyproject.toml
+  s_2630680b83c41c::t_0abfcacec85da0 1-71
+requirements.txt
+  s_2630680b83c41c::t_852113bae6e9eb 1-19
+src/finance_research_agent/agent.py
+  s_2630680b83c41c::t_ad0eeb8d004ec7 1-84
+src/finance_research_agent/config.py
+  s_2630680b83c41c::t_b54905193a10c5 1-183
+src/finance_research_agent/main.py
+  s_2630680b83c41c::t_3b5141a5b6ff67 1-192
+src/finance_research_agent/models.py
+  s_2630680b83c41c::t_5558343f3a1d35 1-33
+src/finance_research_agent/orchestrator.py
+  s_2630680b83c41c::t_73ccda6a0a28c8 1-163
+src/finance_research_agent/prompts/analyst.md
+  s_2630680b83c41c::t_66768b35b0aafc 1-78
+src/finance_research_agent/prompts/data_collector.md
+  s_2630680b83c41c::t_6be88ea531f5be 1-56
+src/finance_research_agent/prompts/main_agent.md
+  s_2630680b83c41c::t_eeda72c2e92673 1-96
+src/finance_research_agent/prompts/snowflake_analyst.md
+  s_2630680b83c41c::t_b4bc0f789ce9ce 1-39
+src/finance_research_agent/schemas.py
+  s_2630680b83c41c::t_415f6d90de0abb 1-70
+src/finance_research_agent/subagents/__init__.py
+  s_2630680b83c41c::t_c8421097cd589d 1-13
+src/finance_research_agent/subagents/analyst.py
+  s_2630680b83c41c::t_f94ce3fa23548e 1-33
+src/finance_research_agent/subagents/data_collector.py
+  s_2630680b83c41c::t_036e708892bd76 1-33
+src/finance_research_agent/subagents/report_generator.py
+  s_2630680b83c41c::t_3ed0616d5926f6 1-31
+src/finance_research_agent/subagents/snowflake.py
+  s_2630680b83c41c::t_3c118464ea98bc 1-184
+src/finance_research_agent/tools/analysis.py
+  s_2630680b83c41c::t_d943bff2e3512e 1-510
+src/finance_research_agent/tools/news.py
+  s_2630680b83c41c::t_4bd037b479bc5b 1-259
+src/finance_research_agent/tools/reporting.py
+  s_2630680b83c41c::t_1f57ac9fdac373 1-301
+src/finance_research_agent/tools/stock_data.py
+  s_2630680b83c41c::t_df78bcdf3a64d4 1-267
+studio_graph.py
+  s_2630680b83c41c::t_daeb4715bdb258 1-5
+tests/conftest.py
+  s_2630680b83c41c::t_4cb5ccfdcc1cc2 1-72
+tests/test_agent.py
+  s_2630680b83c41c::t_14ca2d620c0b19 1-58
+tests/test_data_sources.py
+  s_2630680b83c41c::t_9ba1d0b346eb98 1-294
+tests/test_evaluators.py
+  s_2630680b83c41c::t_742cad3e10bf4e 1-53
+tests/test_output.py
+  s_2630680b83c41c::t_41e4d9977e21a0 1-37
+tests/test_snowflake.py
+  s_2630680b83c41c::t_a68c03a073ab1d 1-95
+tests/test_ui.py
+  s_2630680b83c41c::t_00553445b2cc55 1-69
+ui/app.py
+  s_2630680b83c41c::t_c0050129e35ffe 1-261
+ui/questions.py
+  s_2630680b83c41c::t_d43529051dc7e1 1-124
+.cursor/rules/corridor-mcp-server-usage.mdc
+  s_2630680b83c41c::t_da98efd61152bb 1-7
+.github/instructions/corridor.instructions.md
+  s_2630680b83c41c::t_dd9e9572974bf6 1-7
+README.md
+  s_2630680b83c41c::t_bc11e384e3370c 1-615
+docs/DEMO_QUESTIONS.md
+  s_2630680b83c41c::t_f9d50574318fb4 1-72
+src/finance_research_agent/__init__.py
+  s_2630680b83c41c::t_a5c381b76f6543 1-3
+src/finance_research_agent/prompts/report_generator.md
+  s_2630680b83c41c::t_55e478cf64b0fe 1-101
+src/finance_research_agent/tools/__init__.py
+  s_2630680b83c41c::t_b6aa46bd069a4b 1
+src/finance_research_agent/tools/sec_filings.py
+  s_2630680b83c41c::t_f0dc78a4f2642a 1-411
+src/finance_research_agent/utils/__init__.py
+  s_2630680b83c41c::t_fa8415d65407fa 1
+src/finance_research_agent/utils/data_processing.py
+  s_2630680b83c41c::t_7058f0682db92c 1-126
+src/finance_research_agent/utils/formatters.py
+  s_2630680b83c41c::t_35325032505fca 1-131
+src/finance_research_agent/utils/validators.py
+  s_2630680b83c41c::t_f99fcf9ae9389d 1-46
+ui/activity.py
+  s_2630680b83c41c::t_2cf64a6942637d 1-73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "82d3e2f2391961f009e88b1d8d77ea81e3e43ba8",
+  "prompts": {},
+  "sessions": {
+    "s_2630680b83c41c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0c3c8ee0-15fc-4d53-972e-672f62e070c0",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Eric Johanson <eric.johanson@langchain.dev>"
+    },
+    "s_34a632d45b37bc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d1db7163-8502-4d5d-b34c-a1ca6e834a0a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Eric Johanson <eric.johanson@langchain.dev>"
+    }
+  }
+}
